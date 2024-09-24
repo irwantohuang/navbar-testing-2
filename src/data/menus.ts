@@ -1,10 +1,10 @@
 import { svgIcon } from "./svgIcon"
-import EventIcon from '../../public/icon/events-icon.png'
-import PlaceIcon from '../../public/icon/place-icon.png'
-import ExpIcon from '../../public/icon/experiences-icon.png'
-import SignUpIcon from '../../public/icon/signUp-icon.png'
-import SignInIcon from '../../public/icon/signIn-icon.png'
-import DownloadIcon from '../../public/icon/download-icon.png'
+import EventIcon from '../../public/icon/events.svg'
+import PlaceIcon from '../../public/icon/places.svg'
+import ExpIcon from '../../public/icon/experiences.svg'
+import SignUpIcon from '../../public/icon/signUp.svg'
+import SignInIcon from '../../public/icon/signIn.svg'
+import DownloadIcon from '../../public/icon/download.svg'
 
 export const menus = [
     { id: 1, name: "Home", link: "#", icon: svgIcon.home },
@@ -17,11 +17,10 @@ export const menus = [
 ]
 
 export const profileMenus = [
-    { id: 1, name: "Sign up", link: "#", icon: SignInIcon, useImage: true },
-    { id: 2, name: "Sign in", link: "#", icon: SignUpIcon, useImage: true },
+    { id: 1, name: "Sign up", link: "#", icon: SignUpIcon, useImage: true },
+    { id: 2, name: "Sign in", link: "#", icon: SignInIcon, useImage: true },
     { id: 3, name: "Download the app", link: "#", icon: DownloadIcon, useImage: true },
 ]
-
 
 export const footerMenus = [
     { id: 1, title: "Company", children: [
