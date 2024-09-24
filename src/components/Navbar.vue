@@ -103,6 +103,8 @@ onBeforeMount(() => {
                             <ul class="py-2">
                                 <li v-for="menu in profileMenus" :key="menu.id">
                                     <MenuItem :menu="menu" iconSize="w-[17px] h-[17px]" />
+
+                                    <div v-if="menu.id === 2" class="border-[#DDDDDD] border-t-2 my-4" />
                                 </li>
                             </ul>
                         </div>
