@@ -26,13 +26,13 @@ export const profileMenus = [
 export const footerMenus = [
     { id: 1, title: "Company", children: [
         { id: 1, name: "About Us", link: "#" },
-        { id: 2, name: "Carrers", link: "#" },
+        { id: 2, name: "Careers", link: "#" },
         { id: 3, name: "Blog", link: "#" },
         { id: 4, name: "Badges", link: "#" },
     ]},
     { id: 2, title: "Legal", children: [
         { id: 1, name: "Privacy Policy", link: "#" },
-        { id: 2, name: "Tersm of Use", link: "#" },
+        { id: 2, name: "Terms of Use", link: "#" },
         { id: 3, name: "EULA", link: "#" },
         { id: 4, name: "Ticketing Policy", link: "#" },
     ]},
